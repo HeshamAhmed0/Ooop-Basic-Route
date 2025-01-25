@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Human
+namespace Details
 {
-    internal enum Human01
+    internal class StudentsProperty
     {
-        none,
-        Female, f=1,
-            male,m=2
+        public Gender Gender { get; set; }
     }
 }
