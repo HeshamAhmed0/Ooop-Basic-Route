@@ -31,7 +31,6 @@
 
             humans.Permisions = humans.Permisions | Permisions.Read;
             Console.WriteLine(humans.Permisions);
-
             #endregion
         }
     }
