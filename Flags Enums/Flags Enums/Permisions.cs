@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Flags_Enums
 {
+    [Flags]
     internal enum Permisions : byte
     {
-        None = 0,
         Write=1,
         Delete =2,
         Read =4,

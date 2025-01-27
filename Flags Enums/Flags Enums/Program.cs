@@ -15,18 +15,23 @@
             //Console.WriteLine(humans.Properties); 
 
             // Check for permission
-            if ((humans.Permisions & Permisions.Read) == Permisions.Read)
-            {
-                Console.WriteLine("This Human Has Read Permission ");
-            }
-            else
-            {
-                Console.WriteLine("This Human Not Has Read Property");
-                humans.Permisions ^= Permisions.Read;
-                Console.WriteLine("Operation Add Property Read Done Succcesful");
-                Console.WriteLine(humans.Permisions);
+            //if ((humans.Permisions & Permisions.Read) == Permisions.Read)
+            //{
+            //    Console.WriteLine("This Human Has Read Permission ");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("This Human Not Has Read Property");
+            //    humans.Permisions ^= Permisions.Read;
+            //    Console.WriteLine("Operation Add Property Read Done Succcesful");
+            //    Console.WriteLine(humans.Permisions);
 
-            }
+            //}
+            Console.WriteLine(humans.Permisions);
+
+            humans.Permisions = humans.Permisions | Permisions.Read;
+            Console.WriteLine(humans.Permisions);
+
             #endregion
         }
     }
