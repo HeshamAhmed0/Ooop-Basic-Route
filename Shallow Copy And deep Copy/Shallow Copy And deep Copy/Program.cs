@@ -63,6 +63,13 @@ namespace Shallow_Copy_And_deep_Copy
             #endregion
 
             #endregion
+
+            #region Built in Interface
+            Employee employe01 = new Employee() {Id= 10,Name="Hesham"};
+            Employee employe02 = new Employee();
+            //employe02= employe01;>>>>>>>>>>>>>>>>>>>> Shallo Copy
+            employe02=(Employee) employe01.Clone();
+            #endregion
         }
     }
 }
