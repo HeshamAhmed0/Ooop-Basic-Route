@@ -1,4 +1,6 @@
-﻿namespace Shallow_Copy_And_deep_Copy
+﻿using System.Text;
+
+namespace Shallow_Copy_And_deep_Copy
 {
     internal class Program
     {
@@ -34,6 +36,27 @@
 
 
             //Arr02 = (string[])Arr01.Clone(); =>>>>>>  Deep Copy
+
+
+
+            #endregion
+
+            #region Mutable
+
+            //StringBuilder[] Arr01 = [new StringBuilder("Hesham")];
+            //StringBuilder[] Arr02 = new StringBuilder[1];
+
+            // Shallo Copy 
+            //What Will happen 
+            // The Reference of Two Array Will Refere to the same reference
+            //Arr02 = Arr01;
+
+
+            // Deep Copy 
+            //Arr02 = (StringBuilder[])Arr01.Clone();
+            // in tis case the two object will refere to the same object 
+
+
 
 
 
