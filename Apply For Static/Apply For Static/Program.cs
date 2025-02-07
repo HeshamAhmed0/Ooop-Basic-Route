@@ -10,7 +10,6 @@
 
             //After Make method Static
             Utility.Num1 = 10;
-            Utility.Num2 = 20;
             Console.WriteLine($"Area Is {Utility.GetArea()}");
 
         }
