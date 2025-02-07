@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Rectangle rectangle = new Rectangle() { Dim01 = 10, Dim02 = 10, };
+            Console.WriteLine($"RECTANGLE P = {rectangle.Perimiter}");
+            Console.WriteLine($"RECTANGLE AREA ={rectangle.GetShape()}");
+
         }
     }
 }

@@ -28,7 +28,7 @@ namespace Apply_For_Abstaction
 
         public override decimal GetShape()
         {
-            return Dim01 * Dim02 * 3.14m;
+            return Dim01 * Dim02 ;
         }
     }
 }
